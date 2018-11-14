@@ -7,6 +7,33 @@
     <ClInclude Include="iortcw\MP\code\renderer\tr_local.h" />
     <ClInclude Include="iortcw\MP\code\renderer\tr_public.h" />
     <ClInclude Include="iortcw\MP\code\renderer\tr_types.h" />
+    <ClInclude Include="iortcw\MP\code\jpeg-8c\jversion.h">
+      <Filter>jpeg-8c</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\jpeg-8c\jconfig.h">
+      <Filter>jpeg-8c</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\jpeg-8c\jdct.h">
+      <Filter>jpeg-8c</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\jpeg-8c\jerror.h">
+      <Filter>jpeg-8c</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\jpeg-8c\jinclude.h">
+      <Filter>jpeg-8c</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\jpeg-8c\jmemsys.h">
+      <Filter>jpeg-8c</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\jpeg-8c\jmorecfg.h">
+      <Filter>jpeg-8c</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\jpeg-8c\jpegint.h">
+      <Filter>jpeg-8c</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\jpeg-8c\jpeglib.h">
+      <Filter>jpeg-8c</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="iortcw\MP\code\renderer\tr_altivec.c" />
@@ -42,5 +69,151 @@
     <ClCompile Include="iortcw\MP\code\renderer\tr_subs.c" />
     <ClCompile Include="iortcw\MP\code\renderer\tr_surface.c" />
     <ClCompile Include="iortcw\MP\code\renderer\tr_world.c" />
+    <ClCompile Include="iortcw\MP\code\jpeg-8c\jaricom.c">
+      <Filter>jpeg-8c</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\jpeg-8c\jcapimin.c">
+      <Filter>jpeg-8c</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\jpeg-8c\jcapistd.c">
+      <Filter>jpeg-8c</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\jpeg-8c\jcarith.c">
+      <Filter>jpeg-8c</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\jpeg-8c\jccoefct.c">
+      <Filter>jpeg-8c</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\jpeg-8c\jccolor.c">
+      <Filter>jpeg-8c</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\jpeg-8c\jcdctmgr.c">
+      <Filter>jpeg-8c</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\jpeg-8c\jchuff.c">
+      <Filter>jpeg-8c</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\jpeg-8c\jcinit.c">
+      <Filter>jpeg-8c</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\jpeg-8c\jcmainct.c">
+      <Filter>jpeg-8c</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\jpeg-8c\jcmarker.c">
+      <Filter>jpeg-8c</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\jpeg-8c\jcmaster.c">
+      <Filter>jpeg-8c</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\jpeg-8c\jcomapi.c">
+      <Filter>jpeg-8c</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\jpeg-8c\jcparam.c">
+      <Filter>jpeg-8c</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\jpeg-8c\jcprepct.c">
+      <Filter>jpeg-8c</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\jpeg-8c\jcsample.c">
+      <Filter>jpeg-8c</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\jpeg-8c\jctrans.c">
+      <Filter>jpeg-8c</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\jpeg-8c\jdapimin.c">
+      <Filter>jpeg-8c</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\jpeg-8c\jdapistd.c">
+      <Filter>jpeg-8c</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\jpeg-8c\jdarith.c">
+      <Filter>jpeg-8c</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\jpeg-8c\jdatadst.c">
+      <Filter>jpeg-8c</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\jpeg-8c\jdatasrc.c">
+      <Filter>jpeg-8c</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\jpeg-8c\jdcoefct.c">
+      <Filter>jpeg-8c</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\jpeg-8c\jdcolor.c">
+      <Filter>jpeg-8c</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\jpeg-8c\jddctmgr.c">
+      <Filter>jpeg-8c</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\jpeg-8c\jdhuff.c">
+      <Filter>jpeg-8c</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\jpeg-8c\jdinput.c">
+      <Filter>jpeg-8c</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\jpeg-8c\jdmainct.c">
+      <Filter>jpeg-8c</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\jpeg-8c\jdmarker.c">
+      <Filter>jpeg-8c</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\jpeg-8c\jdmaster.c">
+      <Filter>jpeg-8c</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\jpeg-8c\jdmerge.c">
+      <Filter>jpeg-8c</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\jpeg-8c\jdpostct.c">
+      <Filter>jpeg-8c</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\jpeg-8c\jdsample.c">
+      <Filter>jpeg-8c</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\jpeg-8c\jdtrans.c">
+      <Filter>jpeg-8c</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\jpeg-8c\jerror.c">
+      <Filter>jpeg-8c</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\jpeg-8c\jfdctflt.c">
+      <Filter>jpeg-8c</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\jpeg-8c\jfdctfst.c">
+      <Filter>jpeg-8c</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\jpeg-8c\jfdctint.c">
+      <Filter>jpeg-8c</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\jpeg-8c\jidctflt.c">
+      <Filter>jpeg-8c</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\jpeg-8c\jidctfst.c">
+      <Filter>jpeg-8c</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\jpeg-8c\jidctint.c">
+      <Filter>jpeg-8c</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\jpeg-8c\jmemmgr.c">
+      <Filter>jpeg-8c</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\jpeg-8c\jmemnobs.c">
+      <Filter>jpeg-8c</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\jpeg-8c\jquant1.c">
+      <Filter>jpeg-8c</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\jpeg-8c\jquant2.c">
+      <Filter>jpeg-8c</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\jpeg-8c\jutils.c">
+      <Filter>jpeg-8c</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="jpeg-8c">
+      <UniqueIdentifier>{e723a024-263b-445e-9e0b-27216607c86a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="qcommon">
+      <UniqueIdentifier>{1eb5c5fc-6a02-4d79-acc3-0edaf00f71aa}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
 </Project>
