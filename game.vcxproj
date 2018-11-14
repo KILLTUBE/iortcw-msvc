@@ -115,6 +115,80 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="iortcw\MP\code\game\ai_cast.c" />
+    <ClCompile Include="iortcw\MP\code\game\ai_cast_characters.c" />
+    <ClCompile Include="iortcw\MP\code\game\ai_cast_debug.c" />
+    <ClCompile Include="iortcw\MP\code\game\ai_cast_events.c" />
+    <ClCompile Include="iortcw\MP\code\game\ai_cast_fight.c" />
+    <ClCompile Include="iortcw\MP\code\game\ai_cast_funcs.c" />
+    <ClCompile Include="iortcw\MP\code\game\ai_cast_func_attack.c" />
+    <ClCompile Include="iortcw\MP\code\game\ai_cast_func_boss1.c" />
+    <ClCompile Include="iortcw\MP\code\game\ai_cast_script.c" />
+    <ClCompile Include="iortcw\MP\code\game\ai_cast_script_actions.c" />
+    <ClCompile Include="iortcw\MP\code\game\ai_cast_script_ents.c" />
+    <ClCompile Include="iortcw\MP\code\game\ai_cast_sight.c" />
+    <ClCompile Include="iortcw\MP\code\game\ai_cast_think.c" />
+    <ClCompile Include="iortcw\MP\code\game\ai_chat.c" />
+    <ClCompile Include="iortcw\MP\code\game\ai_cmd.c" />
+    <ClCompile Include="iortcw\MP\code\game\ai_dmnet.c" />
+    <ClCompile Include="iortcw\MP\code\game\ai_dmq3.c" />
+    <ClCompile Include="iortcw\MP\code\game\ai_main.c" />
+    <ClCompile Include="iortcw\MP\code\game\ai_team.c" />
+    <ClCompile Include="iortcw\MP\code\game\bg_animation.c" />
+    <ClCompile Include="iortcw\MP\code\game\bg_lib.c" />
+    <ClCompile Include="iortcw\MP\code\game\bg_misc.c" />
+    <ClCompile Include="iortcw\MP\code\game\bg_pmove.c" />
+    <ClCompile Include="iortcw\MP\code\game\bg_slidemove.c" />
+    <ClCompile Include="iortcw\MP\code\game\g_active.c" />
+    <ClCompile Include="iortcw\MP\code\game\g_alarm.c" />
+    <ClCompile Include="iortcw\MP\code\game\g_antilag.c" />
+    <ClCompile Include="iortcw\MP\code\game\g_bot.c" />
+    <ClCompile Include="iortcw\MP\code\game\g_client.c" />
+    <ClCompile Include="iortcw\MP\code\game\g_cmds.c" />
+    <ClCompile Include="iortcw\MP\code\game\g_combat.c" />
+    <ClCompile Include="iortcw\MP\code\game\g_items.c" />
+    <ClCompile Include="iortcw\MP\code\game\g_main.c" />
+    <ClCompile Include="iortcw\MP\code\game\g_mem.c" />
+    <ClCompile Include="iortcw\MP\code\game\g_misc.c" />
+    <ClCompile Include="iortcw\MP\code\game\g_missile.c" />
+    <ClCompile Include="iortcw\MP\code\game\g_mover.c" />
+    <ClCompile Include="iortcw\MP\code\game\g_props.c" />
+    <ClCompile Include="iortcw\MP\code\game\g_script.c" />
+    <ClCompile Include="iortcw\MP\code\game\g_script_actions.c" />
+    <ClCompile Include="iortcw\MP\code\game\g_session.c" />
+    <ClCompile Include="iortcw\MP\code\game\g_spawn.c" />
+    <ClCompile Include="iortcw\MP\code\game\g_svcmds.c" />
+    <ClCompile Include="iortcw\MP\code\game\g_syscalls.c" />
+    <ClCompile Include="iortcw\MP\code\game\g_target.c" />
+    <ClCompile Include="iortcw\MP\code\game\g_team.c" />
+    <ClCompile Include="iortcw\MP\code\game\g_tramcar.c" />
+    <ClCompile Include="iortcw\MP\code\game\g_trigger.c" />
+    <ClCompile Include="iortcw\MP\code\game\g_utils.c" />
+    <ClCompile Include="iortcw\MP\code\game\g_weapon.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="iortcw\MP\code\game\ai_cast.h" />
+    <ClInclude Include="iortcw\MP\code\game\ai_cast_fight.h" />
+    <ClInclude Include="iortcw\MP\code\game\ai_cast_global.h" />
+    <ClInclude Include="iortcw\MP\code\game\ai_chat.h" />
+    <ClInclude Include="iortcw\MP\code\game\ai_cmd.h" />
+    <ClInclude Include="iortcw\MP\code\game\ai_dmnet.h" />
+    <ClInclude Include="iortcw\MP\code\game\ai_dmq3.h" />
+    <ClInclude Include="iortcw\MP\code\game\ai_main.h" />
+    <ClInclude Include="iortcw\MP\code\game\ai_team.h" />
+    <ClInclude Include="iortcw\MP\code\game\bg_lib.h" />
+    <ClInclude Include="iortcw\MP\code\game\bg_local.h" />
+    <ClInclude Include="iortcw\MP\code\game\bg_public.h" />
+    <ClInclude Include="iortcw\MP\code\game\chars.h" />
+    <ClInclude Include="iortcw\MP\code\game\g_local.h" />
+    <ClInclude Include="iortcw\MP\code\game\g_public.h" />
+    <ClInclude Include="iortcw\MP\code\game\g_team.h" />
+    <ClInclude Include="iortcw\MP\code\game\inv.h" />
+    <ClInclude Include="iortcw\MP\code\game\match.h" />
+    <ClInclude Include="iortcw\MP\code\game\syn.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="iortcw\MP\code\game\g_syscalls.asm" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
