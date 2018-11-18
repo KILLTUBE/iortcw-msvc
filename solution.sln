@@ -11,7 +11,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cgame", "cgame.vcxproj", "{
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "renderer_mp_opengl1_x86", "renderer_opengl1.vcxproj", "{D6C59A62-7071-4DFC-82D1-BB6295C7C185}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rend2", "rend2\rend2.vcxproj", "{1073F397-EF08-4BEC-861A-29B428BD57D3}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rend2", "rend2.vcxproj", "{1073F397-EF08-4BEC-861A-29B428BD57D3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
