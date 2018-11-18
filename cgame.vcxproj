@@ -89,7 +89,7 @@
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;CGAME;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
-      <OutputFile>$(OutDir)\Main\cgame_mp_x86.dll</OutputFile>
+      <OutputFile>$(SolutionDir)\Main\cgame_mp_x86.dll</OutputFile>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">

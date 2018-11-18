@@ -89,7 +89,7 @@
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;GAME;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
-      <OutputFile>$(OutDir)\Main\qagame_mp_x86.dll</OutputFile>
+      <OutputFile>$(SolutionDir)\Main\qagame_mp_x86.dll</OutputFile>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">

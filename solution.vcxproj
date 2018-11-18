@@ -83,7 +83,8 @@
       <PreprocessorDefinitions>WIN32;_WIN32;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;USE_LOCAL_HEADERS;BOTLIB;USE_RENDERER_DLOPEN;USE_OPENAL;USE_OPENAL_DLOPEN;SDL_MAIN_HANDLED;__i386__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>user32.lib;advapi32.lib;winmm.lib;wsock32.lib;ws2_32.lib;msvcrtd.lib;psapi.lib;gdi32.lib;shlwapi.lib;D:\video_example\spearmint-msvc\Win32\Debug\SDL2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>user32.lib;advapi32.lib;winmm.lib;wsock32.lib;ws2_32.lib;msvcrtd.lib;psapi.lib;gdi32.lib;shlwapi.lib;$(SolutionDir)SDL2-2.0.9\VisualC\Win32\Debug\SDL2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(SolutionDir)\RTCW_MP.exe</OutputFile>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">

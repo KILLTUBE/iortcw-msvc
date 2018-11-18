@@ -91,8 +91,8 @@
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;USE_INTERNAL_JPEG;USE_LOCAL_HEADERS;USE_RENDERER_DLOPEN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>opengl32.lib;D:\video_example\spearmint-msvc\Win32\Debug\SDL2.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <OutputFile>$(OutDir)\renderer_mp_opengl1_x86.dll</OutputFile>
+      <AdditionalDependencies>opengl32.lib;$(SolutionDir)SDL2-2.0.9\VisualC\Win32\Debug\SDL2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(SolutionDir)\renderer_mp_opengl1_x86.dll</OutputFile>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
