@@ -71,6 +71,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <IncludePath>D:\video_example\spearmint-msvc\SDL2-2.0.8\include;D:\iortcw-msvc\iortcw\MP\code\jpeg-8c;$(IncludePath)</IncludePath>
+    <IntDir>$(Configuration)_rend2\</IntDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -82,6 +83,7 @@
     </ClCompile>
     <Link>
       <AdditionalDependencies>opengl32.lib;D:\video_example\spearmint-msvc\Win32\Debug\SDL2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)\renderer_mp_rend2_x86.dll</OutputFile>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -121,6 +123,34 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="glsl_to_c\bokeh_fp.c" />
+    <ClCompile Include="glsl_to_c\bokeh_vp.c" />
+    <ClCompile Include="glsl_to_c\calclevels4x_fp.c" />
+    <ClCompile Include="glsl_to_c\calclevels4x_vp.c" />
+    <ClCompile Include="glsl_to_c\depthblur_fp.c" />
+    <ClCompile Include="glsl_to_c\depthblur_vp.c" />
+    <ClCompile Include="glsl_to_c\dlight_fp.c" />
+    <ClCompile Include="glsl_to_c\dlight_vp.c" />
+    <ClCompile Include="glsl_to_c\down4x_fp.c" />
+    <ClCompile Include="glsl_to_c\down4x_vp.c" />
+    <ClCompile Include="glsl_to_c\fogpass_fp.c" />
+    <ClCompile Include="glsl_to_c\fogpass_vp.c" />
+    <ClCompile Include="glsl_to_c\generic_fp.c" />
+    <ClCompile Include="glsl_to_c\generic_vp.c" />
+    <ClCompile Include="glsl_to_c\lightall_fp.c" />
+    <ClCompile Include="glsl_to_c\lightall_vp.c" />
+    <ClCompile Include="glsl_to_c\pshadow_fp.c" />
+    <ClCompile Include="glsl_to_c\pshadow_vp.c" />
+    <ClCompile Include="glsl_to_c\shadowfill_fp.c" />
+    <ClCompile Include="glsl_to_c\shadowfill_vp.c" />
+    <ClCompile Include="glsl_to_c\shadowmask_fp.c" />
+    <ClCompile Include="glsl_to_c\shadowmask_vp.c" />
+    <ClCompile Include="glsl_to_c\ssao_fp.c" />
+    <ClCompile Include="glsl_to_c\ssao_vp.c" />
+    <ClCompile Include="glsl_to_c\texturecolor_fp.c" />
+    <ClCompile Include="glsl_to_c\texturecolor_vp.c" />
+    <ClCompile Include="glsl_to_c\tonemap_fp.c" />
+    <ClCompile Include="glsl_to_c\tonemap_vp.c" />
     <ClCompile Include="iortcw\MP\code\jpeg-8c\jaricom.c" />
     <ClCompile Include="iortcw\MP\code\jpeg-8c\jcapimin.c" />
     <ClCompile Include="iortcw\MP\code\jpeg-8c\jcapistd.c" />

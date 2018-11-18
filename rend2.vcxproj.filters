@@ -13,6 +13,9 @@
     <Filter Include="qcommon">
       <UniqueIdentifier>{525887b6-3cf0-469b-8390-d9010119b88f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="glsl_to_c">
+      <UniqueIdentifier>{c98cb3f7-433c-4a4e-870f-f6e9ccb1263b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="iortcw\MP\code\rend2\tr_world.c">
@@ -281,6 +284,90 @@
     </ClCompile>
     <ClCompile Include="iortcw\MP\code\jpeg-8c\jutils.c">
       <Filter>jpeg-8c</Filter>
+    </ClCompile>
+    <ClCompile Include="glsl_to_c\bokeh_fp.c">
+      <Filter>glsl_to_c</Filter>
+    </ClCompile>
+    <ClCompile Include="glsl_to_c\bokeh_vp.c">
+      <Filter>glsl_to_c</Filter>
+    </ClCompile>
+    <ClCompile Include="glsl_to_c\calclevels4x_fp.c">
+      <Filter>glsl_to_c</Filter>
+    </ClCompile>
+    <ClCompile Include="glsl_to_c\calclevels4x_vp.c">
+      <Filter>glsl_to_c</Filter>
+    </ClCompile>
+    <ClCompile Include="glsl_to_c\depthblur_fp.c">
+      <Filter>glsl_to_c</Filter>
+    </ClCompile>
+    <ClCompile Include="glsl_to_c\depthblur_vp.c">
+      <Filter>glsl_to_c</Filter>
+    </ClCompile>
+    <ClCompile Include="glsl_to_c\dlight_fp.c">
+      <Filter>glsl_to_c</Filter>
+    </ClCompile>
+    <ClCompile Include="glsl_to_c\dlight_vp.c">
+      <Filter>glsl_to_c</Filter>
+    </ClCompile>
+    <ClCompile Include="glsl_to_c\down4x_fp.c">
+      <Filter>glsl_to_c</Filter>
+    </ClCompile>
+    <ClCompile Include="glsl_to_c\down4x_vp.c">
+      <Filter>glsl_to_c</Filter>
+    </ClCompile>
+    <ClCompile Include="glsl_to_c\fogpass_fp.c">
+      <Filter>glsl_to_c</Filter>
+    </ClCompile>
+    <ClCompile Include="glsl_to_c\fogpass_vp.c">
+      <Filter>glsl_to_c</Filter>
+    </ClCompile>
+    <ClCompile Include="glsl_to_c\generic_fp.c">
+      <Filter>glsl_to_c</Filter>
+    </ClCompile>
+    <ClCompile Include="glsl_to_c\generic_vp.c">
+      <Filter>glsl_to_c</Filter>
+    </ClCompile>
+    <ClCompile Include="glsl_to_c\lightall_fp.c">
+      <Filter>glsl_to_c</Filter>
+    </ClCompile>
+    <ClCompile Include="glsl_to_c\lightall_vp.c">
+      <Filter>glsl_to_c</Filter>
+    </ClCompile>
+    <ClCompile Include="glsl_to_c\pshadow_fp.c">
+      <Filter>glsl_to_c</Filter>
+    </ClCompile>
+    <ClCompile Include="glsl_to_c\pshadow_vp.c">
+      <Filter>glsl_to_c</Filter>
+    </ClCompile>
+    <ClCompile Include="glsl_to_c\shadowfill_fp.c">
+      <Filter>glsl_to_c</Filter>
+    </ClCompile>
+    <ClCompile Include="glsl_to_c\shadowfill_vp.c">
+      <Filter>glsl_to_c</Filter>
+    </ClCompile>
+    <ClCompile Include="glsl_to_c\shadowmask_fp.c">
+      <Filter>glsl_to_c</Filter>
+    </ClCompile>
+    <ClCompile Include="glsl_to_c\shadowmask_vp.c">
+      <Filter>glsl_to_c</Filter>
+    </ClCompile>
+    <ClCompile Include="glsl_to_c\ssao_fp.c">
+      <Filter>glsl_to_c</Filter>
+    </ClCompile>
+    <ClCompile Include="glsl_to_c\ssao_vp.c">
+      <Filter>glsl_to_c</Filter>
+    </ClCompile>
+    <ClCompile Include="glsl_to_c\texturecolor_fp.c">
+      <Filter>glsl_to_c</Filter>
+    </ClCompile>
+    <ClCompile Include="glsl_to_c\texturecolor_vp.c">
+      <Filter>glsl_to_c</Filter>
+    </ClCompile>
+    <ClCompile Include="glsl_to_c\tonemap_fp.c">
+      <Filter>glsl_to_c</Filter>
+    </ClCompile>
+    <ClCompile Include="glsl_to_c\tonemap_vp.c">
+      <Filter>glsl_to_c</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
