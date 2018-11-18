@@ -1,79 +1,254 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="iortcw\MP\code\game\ai_cast.c" />
-    <ClCompile Include="iortcw\MP\code\game\ai_cast_characters.c" />
-    <ClCompile Include="iortcw\MP\code\game\ai_cast_debug.c" />
-    <ClCompile Include="iortcw\MP\code\game\ai_cast_events.c" />
-    <ClCompile Include="iortcw\MP\code\game\ai_cast_fight.c" />
-    <ClCompile Include="iortcw\MP\code\game\ai_cast_func_attack.c" />
-    <ClCompile Include="iortcw\MP\code\game\ai_cast_func_boss1.c" />
-    <ClCompile Include="iortcw\MP\code\game\ai_cast_funcs.c" />
-    <ClCompile Include="iortcw\MP\code\game\ai_cast_script.c" />
-    <ClCompile Include="iortcw\MP\code\game\ai_cast_script_actions.c" />
-    <ClCompile Include="iortcw\MP\code\game\ai_cast_script_ents.c" />
-    <ClCompile Include="iortcw\MP\code\game\ai_cast_sight.c" />
-    <ClCompile Include="iortcw\MP\code\game\ai_cast_think.c" />
-    <ClCompile Include="iortcw\MP\code\game\ai_chat.c" />
-    <ClCompile Include="iortcw\MP\code\game\ai_cmd.c" />
-    <ClCompile Include="iortcw\MP\code\game\ai_dmnet.c" />
-    <ClCompile Include="iortcw\MP\code\game\ai_dmq3.c" />
-    <ClCompile Include="iortcw\MP\code\game\ai_main.c" />
-    <ClCompile Include="iortcw\MP\code\game\ai_team.c" />
-    <ClCompile Include="iortcw\MP\code\game\bg_animation.c" />
-    <ClCompile Include="iortcw\MP\code\game\bg_lib.c" />
-    <ClCompile Include="iortcw\MP\code\game\bg_misc.c" />
-    <ClCompile Include="iortcw\MP\code\game\bg_pmove.c" />
-    <ClCompile Include="iortcw\MP\code\game\bg_slidemove.c" />
-    <ClCompile Include="iortcw\MP\code\game\g_active.c" />
-    <ClCompile Include="iortcw\MP\code\game\g_alarm.c" />
-    <ClCompile Include="iortcw\MP\code\game\g_antilag.c" />
-    <ClCompile Include="iortcw\MP\code\game\g_bot.c" />
-    <ClCompile Include="iortcw\MP\code\game\g_client.c" />
-    <ClCompile Include="iortcw\MP\code\game\g_cmds.c" />
-    <ClCompile Include="iortcw\MP\code\game\g_combat.c" />
-    <ClCompile Include="iortcw\MP\code\game\g_items.c" />
-    <ClCompile Include="iortcw\MP\code\game\g_main.c" />
-    <ClCompile Include="iortcw\MP\code\game\g_mem.c" />
-    <ClCompile Include="iortcw\MP\code\game\g_misc.c" />
-    <ClCompile Include="iortcw\MP\code\game\g_missile.c" />
-    <ClCompile Include="iortcw\MP\code\game\g_mover.c" />
-    <ClCompile Include="iortcw\MP\code\game\g_props.c" />
-    <ClCompile Include="iortcw\MP\code\game\g_script.c" />
-    <ClCompile Include="iortcw\MP\code\game\g_script_actions.c" />
-    <ClCompile Include="iortcw\MP\code\game\g_session.c" />
-    <ClCompile Include="iortcw\MP\code\game\g_spawn.c" />
-    <ClCompile Include="iortcw\MP\code\game\g_svcmds.c" />
-    <ClCompile Include="iortcw\MP\code\game\g_syscalls.c" />
-    <ClCompile Include="iortcw\MP\code\game\g_target.c" />
-    <ClCompile Include="iortcw\MP\code\game\g_team.c" />
-    <ClCompile Include="iortcw\MP\code\game\g_tramcar.c" />
-    <ClCompile Include="iortcw\MP\code\game\g_trigger.c" />
-    <ClCompile Include="iortcw\MP\code\game\g_utils.c" />
-    <ClCompile Include="iortcw\MP\code\game\g_weapon.c" />
+    <ClCompile Include="iortcw\MP\code\game\g_active.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\game\g_alarm.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\game\g_antilag.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\game\g_bot.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\game\g_client.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\game\g_cmds.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\game\g_combat.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\game\g_items.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\game\g_main.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\game\g_mem.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\game\g_misc.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\game\g_missile.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\game\g_mover.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\game\g_props.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\game\g_script.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\game\g_script_actions.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\game\g_session.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\game\g_spawn.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\game\g_svcmds.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\game\g_syscalls.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\game\g_target.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\game\g_team.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\game\g_tramcar.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\game\g_trigger.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\game\g_utils.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\game\g_weapon.c">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\qcommon\q_math.c">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\qcommon\q_shared.c">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\game\bg_animation.c">
+      <Filter>bg</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\game\bg_lib.c">
+      <Filter>bg</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\game\bg_misc.c">
+      <Filter>bg</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\game\bg_pmove.c">
+      <Filter>bg</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\game\bg_slidemove.c">
+      <Filter>bg</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\game\ai_cast.c">
+      <Filter>ai</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\game\ai_cast_characters.c">
+      <Filter>ai</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\game\ai_cast_debug.c">
+      <Filter>ai</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\game\ai_cast_events.c">
+      <Filter>ai</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\game\ai_cast_fight.c">
+      <Filter>ai</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\game\ai_cast_func_attack.c">
+      <Filter>ai</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\game\ai_cast_func_boss1.c">
+      <Filter>ai</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\game\ai_cast_funcs.c">
+      <Filter>ai</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\game\ai_cast_script.c">
+      <Filter>ai</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\game\ai_cast_script_actions.c">
+      <Filter>ai</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\game\ai_cast_script_ents.c">
+      <Filter>ai</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\game\ai_cast_sight.c">
+      <Filter>ai</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\game\ai_cast_think.c">
+      <Filter>ai</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\game\ai_chat.c">
+      <Filter>ai</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\game\ai_cmd.c">
+      <Filter>ai</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\game\ai_dmnet.c">
+      <Filter>ai</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\game\ai_dmq3.c">
+      <Filter>ai</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\game\ai_main.c">
+      <Filter>ai</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\game\ai_team.c">
+      <Filter>ai</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="iortcw\MP\code\game\ai_cast.h" />
-    <ClInclude Include="iortcw\MP\code\game\ai_cast_fight.h" />
-    <ClInclude Include="iortcw\MP\code\game\ai_cast_global.h" />
-    <ClInclude Include="iortcw\MP\code\game\ai_chat.h" />
-    <ClInclude Include="iortcw\MP\code\game\ai_cmd.h" />
-    <ClInclude Include="iortcw\MP\code\game\ai_dmnet.h" />
-    <ClInclude Include="iortcw\MP\code\game\ai_dmq3.h" />
-    <ClInclude Include="iortcw\MP\code\game\ai_main.h" />
-    <ClInclude Include="iortcw\MP\code\game\ai_team.h" />
-    <ClInclude Include="iortcw\MP\code\game\bg_lib.h" />
-    <ClInclude Include="iortcw\MP\code\game\bg_local.h" />
-    <ClInclude Include="iortcw\MP\code\game\bg_public.h" />
-    <ClInclude Include="iortcw\MP\code\game\chars.h" />
-    <ClInclude Include="iortcw\MP\code\game\g_local.h" />
-    <ClInclude Include="iortcw\MP\code\game\g_public.h" />
-    <ClInclude Include="iortcw\MP\code\game\g_team.h" />
-    <ClInclude Include="iortcw\MP\code\game\inv.h" />
-    <ClInclude Include="iortcw\MP\code\game\match.h" />
-    <ClInclude Include="iortcw\MP\code\game\syn.h" />
+    <ClInclude Include="iortcw\MP\code\game\chars.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\game\g_local.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\game\g_public.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\game\g_team.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\game\inv.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\game\match.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\game\syn.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\qcommon\q_platform.h">
+      <Filter>qcommon</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\qcommon\q_shared.h">
+      <Filter>qcommon</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\qcommon\qcommon.h">
+      <Filter>qcommon</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\qcommon\qfiles.h">
+      <Filter>qcommon</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\qcommon\surfaceflags.h">
+      <Filter>qcommon</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\game\bg_lib.h">
+      <Filter>bg</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\game\bg_local.h">
+      <Filter>bg</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\game\bg_public.h">
+      <Filter>bg</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\game\ai_cast.h">
+      <Filter>ai</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\game\ai_cast_fight.h">
+      <Filter>ai</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\game\ai_cast_global.h">
+      <Filter>ai</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\game\ai_chat.h">
+      <Filter>ai</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\game\ai_cmd.h">
+      <Filter>ai</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\game\ai_dmnet.h">
+      <Filter>ai</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\game\ai_dmq3.h">
+      <Filter>ai</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\game\ai_main.h">
+      <Filter>ai</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\game\ai_team.h">
+      <Filter>ai</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="iortcw\MP\code\game\g_syscalls.asm" />
+    <Filter Include="game">
+      <UniqueIdentifier>{40451c5f-e31c-4ba8-9099-f3eea029d17c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="qcommon">
+      <UniqueIdentifier>{9b897026-22ce-49f7-be1e-83d2e8dde7c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bg">
+      <UniqueIdentifier>{6380cbf2-69d1-45ef-af7a-8b61c461c0aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ai">
+      <UniqueIdentifier>{42e863e0-663b-40df-a2b2-9719a32907fe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="iortcw\MP\code\game\g_syscalls.asm">
+      <Filter>game</Filter>
+    </None>
   </ItemGroup>
 </Project>
