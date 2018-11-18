@@ -71,7 +71,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <IncludePath>D:\video_example\spearmint-msvc\SDL2-2.0.8\include;D:\iortcw-msvc\iortcw\MP\code\jpeg-8c;$(IncludePath)</IncludePath>
-    <IntDir>$(Configuration)_rend2\</IntDir>
+    <IntDir>$(Configuration)\rend2\</IntDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
