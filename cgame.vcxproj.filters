@@ -1,37 +1,158 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="iortcw\MP\code\cgame\cg_consolecmds.c" />
-    <ClCompile Include="iortcw\MP\code\cgame\cg_draw.c" />
-    <ClCompile Include="iortcw\MP\code\cgame\cg_drawtools.c" />
-    <ClCompile Include="iortcw\MP\code\cgame\cg_effects.c" />
-    <ClCompile Include="iortcw\MP\code\cgame\cg_ents.c" />
-    <ClCompile Include="iortcw\MP\code\cgame\cg_event.c" />
-    <ClCompile Include="iortcw\MP\code\cgame\cg_flamethrower.c" />
-    <ClCompile Include="iortcw\MP\code\cgame\cg_info.c" />
-    <ClCompile Include="iortcw\MP\code\cgame\cg_localents.c" />
-    <ClCompile Include="iortcw\MP\code\cgame\cg_main.c" />
-    <ClCompile Include="iortcw\MP\code\cgame\cg_marks.c" />
-    <ClCompile Include="iortcw\MP\code\cgame\cg_newdraw.c" />
-    <ClCompile Include="iortcw\MP\code\cgame\cg_particles.c" />
-    <ClCompile Include="iortcw\MP\code\cgame\cg_players.c" />
-    <ClCompile Include="iortcw\MP\code\cgame\cg_playerstate.c" />
-    <ClCompile Include="iortcw\MP\code\cgame\cg_predict.c" />
-    <ClCompile Include="iortcw\MP\code\cgame\cg_scoreboard.c" />
-    <ClCompile Include="iortcw\MP\code\cgame\cg_servercmds.c" />
-    <ClCompile Include="iortcw\MP\code\cgame\cg_snapshot.c" />
-    <ClCompile Include="iortcw\MP\code\cgame\cg_sound.c" />
-    <ClCompile Include="iortcw\MP\code\cgame\cg_spawn.c" />
-    <ClCompile Include="iortcw\MP\code\cgame\cg_syscalls.c" />
-    <ClCompile Include="iortcw\MP\code\cgame\cg_trails.c" />
-    <ClCompile Include="iortcw\MP\code\cgame\cg_view.c" />
-    <ClCompile Include="iortcw\MP\code\cgame\cg_weapons.c" />
+    <ClCompile Include="iortcw\MP\code\cgame\cg_consolecmds.c">
+      <Filter>cgame</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\cgame\cg_draw.c">
+      <Filter>cgame</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\cgame\cg_drawtools.c">
+      <Filter>cgame</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\cgame\cg_effects.c">
+      <Filter>cgame</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\cgame\cg_ents.c">
+      <Filter>cgame</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\cgame\cg_event.c">
+      <Filter>cgame</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\cgame\cg_flamethrower.c">
+      <Filter>cgame</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\cgame\cg_info.c">
+      <Filter>cgame</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\cgame\cg_localents.c">
+      <Filter>cgame</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\cgame\cg_main.c">
+      <Filter>cgame</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\cgame\cg_marks.c">
+      <Filter>cgame</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\cgame\cg_newdraw.c">
+      <Filter>cgame</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\cgame\cg_particles.c">
+      <Filter>cgame</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\cgame\cg_players.c">
+      <Filter>cgame</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\cgame\cg_playerstate.c">
+      <Filter>cgame</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\cgame\cg_predict.c">
+      <Filter>cgame</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\cgame\cg_scoreboard.c">
+      <Filter>cgame</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\cgame\cg_servercmds.c">
+      <Filter>cgame</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\cgame\cg_snapshot.c">
+      <Filter>cgame</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\cgame\cg_sound.c">
+      <Filter>cgame</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\cgame\cg_spawn.c">
+      <Filter>cgame</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\cgame\cg_syscalls.c">
+      <Filter>cgame</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\cgame\cg_trails.c">
+      <Filter>cgame</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\cgame\cg_view.c">
+      <Filter>cgame</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\cgame\cg_weapons.c">
+      <Filter>cgame</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\qcommon\q_math.c">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\qcommon\q_shared.c">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\game\bg_animation.c">
+      <Filter>bg</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\game\bg_lib.c">
+      <Filter>bg</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\game\bg_misc.c">
+      <Filter>bg</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\game\bg_pmove.c">
+      <Filter>bg</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\game\bg_slidemove.c">
+      <Filter>bg</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\ui\ui_shared.c">
+      <Filter>ui</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="iortcw\MP\code\cgame\cg_local.h" />
-    <ClInclude Include="iortcw\MP\code\cgame\cg_public.h" />
+    <ClInclude Include="iortcw\MP\code\cgame\cg_local.h">
+      <Filter>cgame</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\cgame\cg_public.h">
+      <Filter>cgame</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\qcommon\q_platform.h">
+      <Filter>qcommon</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\qcommon\q_shared.h">
+      <Filter>qcommon</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\qcommon\qcommon.h">
+      <Filter>qcommon</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\qcommon\qfiles.h">
+      <Filter>qcommon</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\qcommon\surfaceflags.h">
+      <Filter>qcommon</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\game\bg_lib.h">
+      <Filter>bg</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\game\bg_local.h">
+      <Filter>bg</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\game\bg_public.h">
+      <Filter>bg</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\ui\ui_shared.h">
+      <Filter>ui</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="iortcw\MP\code\cgame\cg_syscalls.asm" />
+    <Filter Include="cgame">
+      <UniqueIdentifier>{10aab7b0-454b-4287-bfc8-41edd432aebf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="qcommon">
+      <UniqueIdentifier>{3e483c40-e0de-4fb4-8e06-91e021aabb19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bg">
+      <UniqueIdentifier>{195f7e49-f0e0-4e10-bb87-330d1f0b2eea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui">
+      <UniqueIdentifier>{57460dc4-9e14-4b81-8e8b-4eb7344878aa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="iortcw\MP\code\cgame\cg_syscalls.asm">
+      <Filter>cgame</Filter>
+    </None>
   </ItemGroup>
 </Project>
