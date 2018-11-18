@@ -1,42 +1,637 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="iortcw\MP\code\client\cl_avi.c" />
-    <ClCompile Include="iortcw\MP\code\client\cl_cgame.c" />
-    <ClCompile Include="iortcw\MP\code\client\cl_cin.c" />
-    <ClCompile Include="iortcw\MP\code\client\cl_console.c" />
-    <ClCompile Include="iortcw\MP\code\client\cl_curl.c" />
-    <ClCompile Include="iortcw\MP\code\client\cl_input.c" />
-    <ClCompile Include="iortcw\MP\code\client\cl_keys.c" />
-    <ClCompile Include="iortcw\MP\code\client\cl_main.c" />
-    <ClCompile Include="iortcw\MP\code\client\cl_net_chan.c" />
-    <ClCompile Include="iortcw\MP\code\client\cl_parse.c" />
-    <ClCompile Include="iortcw\MP\code\client\cl_scrn.c" />
-    <ClCompile Include="iortcw\MP\code\client\cl_ui.c" />
-    <ClCompile Include="iortcw\MP\code\client\libmumblelink.c" />
-    <ClCompile Include="iortcw\MP\code\client\qal.c" />
-    <ClCompile Include="iortcw\MP\code\client\snd_adpcm.c" />
-    <ClCompile Include="iortcw\MP\code\client\snd_altivec.c" />
-    <ClCompile Include="iortcw\MP\code\client\snd_codec.c" />
-    <ClCompile Include="iortcw\MP\code\client\snd_codec_ogg.c" />
-    <ClCompile Include="iortcw\MP\code\client\snd_codec_opus.c" />
-    <ClCompile Include="iortcw\MP\code\client\snd_codec_wav.c" />
-    <ClCompile Include="iortcw\MP\code\client\snd_dma.c" />
-    <ClCompile Include="iortcw\MP\code\client\snd_main.c" />
-    <ClCompile Include="iortcw\MP\code\client\snd_mem.c" />
-    <ClCompile Include="iortcw\MP\code\client\snd_mix.c" />
-    <ClCompile Include="iortcw\MP\code\client\snd_openal.c" />
-    <ClCompile Include="iortcw\MP\code\client\snd_wavelet.c" />
+    <ClCompile Include="iortcw\MP\code\client\cl_avi.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\client\cl_cgame.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\client\cl_cin.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\client\cl_console.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\client\cl_curl.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\client\cl_input.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\client\cl_keys.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\client\cl_main.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\client\cl_net_chan.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\client\cl_parse.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\client\cl_scrn.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\client\cl_ui.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\client\libmumblelink.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\client\qal.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\client\snd_adpcm.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\client\snd_altivec.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\client\snd_codec.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\client\snd_codec_ogg.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\client\snd_codec_opus.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\client\snd_codec_wav.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\client\snd_dma.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\client\snd_main.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\client\snd_mem.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\client\snd_mix.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\client\snd_openal.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\client\snd_wavelet.c">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\sys\con_log.c">
+      <Filter>sys</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\sys\con_win32.c">
+      <Filter>sys</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\sys\sys_main.c">
+      <Filter>sys</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\sys\sys_win32.c">
+      <Filter>sys</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\zlib-1.2.11\adler32.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\zlib-1.2.11\crc32.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\zlib-1.2.11\inffast.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\zlib-1.2.11\inflate.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\zlib-1.2.11\inftrees.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\zlib-1.2.11\ioapi.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\zlib-1.2.11\unzip.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\zlib-1.2.11\zutil.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\server\sv_bot.c">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\server\sv_ccmds.c">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\server\sv_client.c">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\server\sv_game.c">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\server\sv_init.c">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\server\sv_main.c">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\server\sv_net_chan.c">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\server\sv_snapshot.c">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\server\sv_wallhack.c">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\server\sv_world.c">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\sdl\sdl_input.c">
+      <Filter>sdl</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\sdl\sdl_snd.c">
+      <Filter>sdl</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\qcommon\cm_load.c">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\qcommon\cm_patch.c">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\qcommon\cm_polylib.c">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\qcommon\cm_test.c">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\qcommon\cm_trace.c">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\qcommon\cmd.c">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\qcommon\common.c">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\qcommon\cvar.c">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\qcommon\files.c">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\qcommon\huffman.c">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\qcommon\md4.c">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\qcommon\md5.c">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\qcommon\msg.c">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\qcommon\net_chan.c">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\qcommon\net_ip.c">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\qcommon\pbmd5.c">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\qcommon\puff.c">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\qcommon\q_math.c">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\qcommon\q_shared.c">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\qcommon\vm.c">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\qcommon\vm_interpreted.c">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\qcommon\vm_x86.c">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\splines\math_angles.cpp">
+      <Filter>splines</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\splines\math_matrix.cpp">
+      <Filter>splines</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\splines\math_quaternion.cpp">
+      <Filter>splines</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\splines\math_vector.cpp">
+      <Filter>splines</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\splines\q_parse.cpp">
+      <Filter>splines</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\splines\q_shared.cpp">
+      <Filter>splines</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\splines\splines.cpp">
+      <Filter>splines</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\splines\util_str.cpp">
+      <Filter>splines</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\asm\ftola.c">
+      <Filter>asm</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\asm\snapvector.c">
+      <Filter>asm</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\botlib\be_aas_route.c">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\botlib\be_aas_routealt.c">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\botlib\be_aas_routetable.c">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\botlib\be_aas_sample.c">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\botlib\be_ai_char.c">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\botlib\be_ai_chat.c">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\botlib\be_ai_gen.c">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\botlib\be_ai_goal.c">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\botlib\be_ai_move.c">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\botlib\be_ai_weap.c">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\botlib\be_ai_weight.c">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\botlib\be_ea.c">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\botlib\be_interface.c">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\botlib\l_crc.c">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\botlib\l_libvar.c">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\botlib\l_log.c">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\botlib\l_memory.c">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\botlib\l_precomp.c">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\botlib\l_script.c">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\botlib\l_struct.c">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\botlib\be_aas_bspq3.c">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\botlib\be_aas_cluster.c">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\botlib\be_aas_debug.c">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\botlib\be_aas_entity.c">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\botlib\be_aas_file.c">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\botlib\be_aas_main.c">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\botlib\be_aas_move.c">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\botlib\be_aas_optimize.c">
+      <Filter>botlib</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\botlib\be_aas_reach.c">
+      <Filter>botlib</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="iortcw\MP\code\client\cl_curl.h" />
-    <ClInclude Include="iortcw\MP\code\client\client.h" />
-    <ClInclude Include="iortcw\MP\code\client\keycodes.h" />
-    <ClInclude Include="iortcw\MP\code\client\keys.h" />
-    <ClInclude Include="iortcw\MP\code\client\libmumblelink.h" />
-    <ClInclude Include="iortcw\MP\code\client\qal.h" />
-    <ClInclude Include="iortcw\MP\code\client\snd_codec.h" />
-    <ClInclude Include="iortcw\MP\code\client\snd_local.h" />
-    <ClInclude Include="iortcw\MP\code\client\snd_public.h" />
+    <ClInclude Include="iortcw\MP\code\client\cl_curl.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\client\client.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\client\keycodes.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\client\keys.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\client\libmumblelink.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\client\qal.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\client\snd_codec.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\client\snd_local.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\client\snd_public.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\sys\sys_loadlib.h">
+      <Filter>sys</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\sys\sys_local.h">
+      <Filter>sys</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\sys\win_resource.h">
+      <Filter>sys</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\zlib-1.2.11\crc32.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\zlib-1.2.11\crypt.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\zlib-1.2.11\gzguts.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\zlib-1.2.11\inffast.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\zlib-1.2.11\inffixed.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\zlib-1.2.11\inflate.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\zlib-1.2.11\inftrees.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\zlib-1.2.11\ioapi.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\zlib-1.2.11\unzip.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\zlib-1.2.11\zconf.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\zlib-1.2.11\zlib.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\zlib-1.2.11\zutil.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\server\server.h">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\qcommon\cm_local.h">
+      <Filter>qcommon</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\qcommon\cm_patch.h">
+      <Filter>qcommon</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\qcommon\cm_polylib.h">
+      <Filter>qcommon</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\qcommon\cm_public.h">
+      <Filter>qcommon</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\qcommon\json.h">
+      <Filter>qcommon</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\qcommon\puff.h">
+      <Filter>qcommon</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\qcommon\q_platform.h">
+      <Filter>qcommon</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\qcommon\q_shared.h">
+      <Filter>qcommon</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\qcommon\qcommon.h">
+      <Filter>qcommon</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\qcommon\qfiles.h">
+      <Filter>qcommon</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\qcommon\surfaceflags.h">
+      <Filter>qcommon</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\qcommon\vm_local.h">
+      <Filter>qcommon</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\splines\math_angles.h">
+      <Filter>splines</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\splines\math_matrix.h">
+      <Filter>splines</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\splines\math_quaternion.h">
+      <Filter>splines</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\splines\math_vector.h">
+      <Filter>splines</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\splines\q_splineshared.h">
+      <Filter>splines</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\splines\splines.h">
+      <Filter>splines</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\splines\util_list.h">
+      <Filter>splines</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\splines\util_str.h">
+      <Filter>splines</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\asm\qasm.h">
+      <Filter>asm</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\asm\qasm-inline.h">
+      <Filter>asm</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\botlib\be_aas_reach.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\botlib\be_aas_route.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\botlib\be_aas_routealt.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\botlib\be_aas_routetable.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\botlib\be_aas_sample.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\botlib\be_ai_char.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\botlib\be_ai_chat.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\botlib\be_ai_gen.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\botlib\be_ai_goal.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\botlib\be_ai_move.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\botlib\be_ai_weap.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\botlib\be_ai_weight.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\botlib\be_ea.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\botlib\be_interface.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\botlib\botai.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\botlib\botlib.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\botlib\l_crc.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\botlib\l_libvar.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\botlib\l_log.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\botlib\l_memory.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\botlib\l_precomp.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\botlib\l_script.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\botlib\l_struct.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\botlib\l_utils.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\botlib\aasfile.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\botlib\be_aas.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\botlib\be_aas_bsp.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\botlib\be_aas_cluster.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\botlib\be_aas_debug.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\botlib\be_aas_def.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\botlib\be_aas_entity.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\botlib\be_aas_file.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\botlib\be_aas_funcs.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\botlib\be_aas_main.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\botlib\be_aas_move.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\botlib\be_aas_optimize.h">
+      <Filter>botlib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="client">
+      <UniqueIdentifier>{4a8e320c-7602-487c-9128-4f3658e3130a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdl">
+      <UniqueIdentifier>{1f605472-6b6d-4177-9481-7dad567f3df2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="server">
+      <UniqueIdentifier>{30a6c5f1-1ec1-4509-bbe9-8ad1ed092929}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sys">
+      <UniqueIdentifier>{44d59e81-ddc1-4566-92ce-81b50eea6a99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="zlib">
+      <UniqueIdentifier>{e7d15d3b-6d44-4ac3-b622-b7ee82207b31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="qcommon">
+      <UniqueIdentifier>{a4e8aee6-7a81-45ad-a752-8ae9f1b8cb03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="splines">
+      <UniqueIdentifier>{a0bccc4b-9da5-488d-9383-b872880b6f49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="asm">
+      <UniqueIdentifier>{0bde085a-3208-4741-abce-e96576f66919}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="botlib">
+      <UniqueIdentifier>{824fe0a6-140b-42a4-97a6-ea9023e818ab}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="iortcw\MP\code\asm\matha.s">
+      <Filter>asm</Filter>
+    </None>
+    <None Include="iortcw\MP\code\asm\snd_mixa.s">
+      <Filter>asm</Filter>
+    </None>
+    <None Include="iortcw\MP\code\asm\vm_x86_64.asm">
+      <Filter>asm</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="iortcw\MP\code\asm\ftola.asm">
+      <Filter>asm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="iortcw\MP\code\asm\snapvector.asm">
+      <Filter>asm</Filter>
+    </CustomBuild>
   </ItemGroup>
 </Project>

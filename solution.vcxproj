@@ -70,14 +70,20 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-  <PropertyGroup />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>D:\video_example\spearmint-msvc\SDL2-2.0.8\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
+      <PreprocessorDefinitions>WIN32;_WIN32;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;USE_LOCAL_HEADERS;BOTLIB;USE_RENDERER_DLOPEN;USE_OPENAL;USE_OPENAL_DLOPEN;SDL_MAIN_HANDLED;__i386__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
+    <Link>
+      <AdditionalDependencies>user32.lib;advapi32.lib;winmm.lib;wsock32.lib;ws2_32.lib;msvcrtd.lib;psapi.lib;gdi32.lib;shlwapi.lib;D:\video_example\spearmint-msvc\Win32\Debug\SDL2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
@@ -116,6 +122,41 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="iortcw\MP\code\asm\ftola.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\asm\snapvector.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\botlib\be_aas_bspq3.c" />
+    <ClCompile Include="iortcw\MP\code\botlib\be_aas_cluster.c" />
+    <ClCompile Include="iortcw\MP\code\botlib\be_aas_debug.c" />
+    <ClCompile Include="iortcw\MP\code\botlib\be_aas_entity.c" />
+    <ClCompile Include="iortcw\MP\code\botlib\be_aas_file.c" />
+    <ClCompile Include="iortcw\MP\code\botlib\be_aas_main.c" />
+    <ClCompile Include="iortcw\MP\code\botlib\be_aas_move.c" />
+    <ClCompile Include="iortcw\MP\code\botlib\be_aas_optimize.c" />
+    <ClCompile Include="iortcw\MP\code\botlib\be_aas_reach.c" />
+    <ClCompile Include="iortcw\MP\code\botlib\be_aas_route.c" />
+    <ClCompile Include="iortcw\MP\code\botlib\be_aas_routealt.c" />
+    <ClCompile Include="iortcw\MP\code\botlib\be_aas_routetable.c" />
+    <ClCompile Include="iortcw\MP\code\botlib\be_aas_sample.c" />
+    <ClCompile Include="iortcw\MP\code\botlib\be_ai_char.c" />
+    <ClCompile Include="iortcw\MP\code\botlib\be_ai_chat.c" />
+    <ClCompile Include="iortcw\MP\code\botlib\be_ai_gen.c" />
+    <ClCompile Include="iortcw\MP\code\botlib\be_ai_goal.c" />
+    <ClCompile Include="iortcw\MP\code\botlib\be_ai_move.c" />
+    <ClCompile Include="iortcw\MP\code\botlib\be_ai_weap.c" />
+    <ClCompile Include="iortcw\MP\code\botlib\be_ai_weight.c" />
+    <ClCompile Include="iortcw\MP\code\botlib\be_ea.c" />
+    <ClCompile Include="iortcw\MP\code\botlib\be_interface.c" />
+    <ClCompile Include="iortcw\MP\code\botlib\l_crc.c" />
+    <ClCompile Include="iortcw\MP\code\botlib\l_libvar.c" />
+    <ClCompile Include="iortcw\MP\code\botlib\l_log.c" />
+    <ClCompile Include="iortcw\MP\code\botlib\l_memory.c" />
+    <ClCompile Include="iortcw\MP\code\botlib\l_precomp.c" />
+    <ClCompile Include="iortcw\MP\code\botlib\l_script.c" />
+    <ClCompile Include="iortcw\MP\code\botlib\l_struct.c" />
     <ClCompile Include="iortcw\MP\code\client\cl_avi.c" />
     <ClCompile Include="iortcw\MP\code\client\cl_cgame.c" />
     <ClCompile Include="iortcw\MP\code\client\cl_cin.c" />
@@ -142,8 +183,106 @@
     <ClCompile Include="iortcw\MP\code\client\snd_mix.c" />
     <ClCompile Include="iortcw\MP\code\client\snd_openal.c" />
     <ClCompile Include="iortcw\MP\code\client\snd_wavelet.c" />
+    <ClCompile Include="iortcw\MP\code\qcommon\cmd.c" />
+    <ClCompile Include="iortcw\MP\code\qcommon\cm_load.c" />
+    <ClCompile Include="iortcw\MP\code\qcommon\cm_patch.c" />
+    <ClCompile Include="iortcw\MP\code\qcommon\cm_polylib.c" />
+    <ClCompile Include="iortcw\MP\code\qcommon\cm_test.c" />
+    <ClCompile Include="iortcw\MP\code\qcommon\cm_trace.c" />
+    <ClCompile Include="iortcw\MP\code\qcommon\common.c" />
+    <ClCompile Include="iortcw\MP\code\qcommon\cvar.c" />
+    <ClCompile Include="iortcw\MP\code\qcommon\files.c" />
+    <ClCompile Include="iortcw\MP\code\qcommon\huffman.c" />
+    <ClCompile Include="iortcw\MP\code\qcommon\md4.c" />
+    <ClCompile Include="iortcw\MP\code\qcommon\md5.c" />
+    <ClCompile Include="iortcw\MP\code\qcommon\msg.c" />
+    <ClCompile Include="iortcw\MP\code\qcommon\net_chan.c" />
+    <ClCompile Include="iortcw\MP\code\qcommon\net_ip.c" />
+    <ClCompile Include="iortcw\MP\code\qcommon\pbmd5.c" />
+    <ClCompile Include="iortcw\MP\code\qcommon\puff.c" />
+    <ClCompile Include="iortcw\MP\code\qcommon\q_math.c" />
+    <ClCompile Include="iortcw\MP\code\qcommon\q_shared.c" />
+    <ClCompile Include="iortcw\MP\code\qcommon\vm.c" />
+    <ClCompile Include="iortcw\MP\code\qcommon\vm_interpreted.c" />
+    <ClCompile Include="iortcw\MP\code\qcommon\vm_x86.c" />
+    <ClCompile Include="iortcw\MP\code\sdl\sdl_input.c" />
+    <ClCompile Include="iortcw\MP\code\sdl\sdl_snd.c" />
+    <ClCompile Include="iortcw\MP\code\server\sv_bot.c" />
+    <ClCompile Include="iortcw\MP\code\server\sv_ccmds.c" />
+    <ClCompile Include="iortcw\MP\code\server\sv_client.c" />
+    <ClCompile Include="iortcw\MP\code\server\sv_game.c" />
+    <ClCompile Include="iortcw\MP\code\server\sv_init.c" />
+    <ClCompile Include="iortcw\MP\code\server\sv_main.c" />
+    <ClCompile Include="iortcw\MP\code\server\sv_net_chan.c" />
+    <ClCompile Include="iortcw\MP\code\server\sv_snapshot.c" />
+    <ClCompile Include="iortcw\MP\code\server\sv_wallhack.c" />
+    <ClCompile Include="iortcw\MP\code\server\sv_world.c" />
+    <ClCompile Include="iortcw\MP\code\splines\math_angles.cpp" />
+    <ClCompile Include="iortcw\MP\code\splines\math_matrix.cpp" />
+    <ClCompile Include="iortcw\MP\code\splines\math_quaternion.cpp" />
+    <ClCompile Include="iortcw\MP\code\splines\math_vector.cpp" />
+    <ClCompile Include="iortcw\MP\code\splines\q_parse.cpp" />
+    <ClCompile Include="iortcw\MP\code\splines\q_shared.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\splines\splines.cpp" />
+    <ClCompile Include="iortcw\MP\code\splines\util_str.cpp" />
+    <ClCompile Include="iortcw\MP\code\sys\con_log.c" />
+    <ClCompile Include="iortcw\MP\code\sys\con_win32.c" />
+    <ClCompile Include="iortcw\MP\code\sys\sys_main.c" />
+    <ClCompile Include="iortcw\MP\code\sys\sys_win32.c" />
+    <ClCompile Include="iortcw\MP\code\zlib-1.2.11\adler32.c" />
+    <ClCompile Include="iortcw\MP\code\zlib-1.2.11\crc32.c" />
+    <ClCompile Include="iortcw\MP\code\zlib-1.2.11\inffast.c" />
+    <ClCompile Include="iortcw\MP\code\zlib-1.2.11\inflate.c" />
+    <ClCompile Include="iortcw\MP\code\zlib-1.2.11\inftrees.c" />
+    <ClCompile Include="iortcw\MP\code\zlib-1.2.11\ioapi.c" />
+    <ClCompile Include="iortcw\MP\code\zlib-1.2.11\unzip.c" />
+    <ClCompile Include="iortcw\MP\code\zlib-1.2.11\zutil.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="iortcw\MP\code\asm\qasm-inline.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\asm\qasm.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\botlib\aasfile.h" />
+    <ClInclude Include="iortcw\MP\code\botlib\be_aas.h" />
+    <ClInclude Include="iortcw\MP\code\botlib\be_aas_bsp.h" />
+    <ClInclude Include="iortcw\MP\code\botlib\be_aas_cluster.h" />
+    <ClInclude Include="iortcw\MP\code\botlib\be_aas_debug.h" />
+    <ClInclude Include="iortcw\MP\code\botlib\be_aas_def.h" />
+    <ClInclude Include="iortcw\MP\code\botlib\be_aas_entity.h" />
+    <ClInclude Include="iortcw\MP\code\botlib\be_aas_file.h" />
+    <ClInclude Include="iortcw\MP\code\botlib\be_aas_funcs.h" />
+    <ClInclude Include="iortcw\MP\code\botlib\be_aas_main.h" />
+    <ClInclude Include="iortcw\MP\code\botlib\be_aas_move.h" />
+    <ClInclude Include="iortcw\MP\code\botlib\be_aas_optimize.h" />
+    <ClInclude Include="iortcw\MP\code\botlib\be_aas_reach.h" />
+    <ClInclude Include="iortcw\MP\code\botlib\be_aas_route.h" />
+    <ClInclude Include="iortcw\MP\code\botlib\be_aas_routealt.h" />
+    <ClInclude Include="iortcw\MP\code\botlib\be_aas_routetable.h" />
+    <ClInclude Include="iortcw\MP\code\botlib\be_aas_sample.h" />
+    <ClInclude Include="iortcw\MP\code\botlib\be_ai_char.h" />
+    <ClInclude Include="iortcw\MP\code\botlib\be_ai_chat.h" />
+    <ClInclude Include="iortcw\MP\code\botlib\be_ai_gen.h" />
+    <ClInclude Include="iortcw\MP\code\botlib\be_ai_goal.h" />
+    <ClInclude Include="iortcw\MP\code\botlib\be_ai_move.h" />
+    <ClInclude Include="iortcw\MP\code\botlib\be_ai_weap.h" />
+    <ClInclude Include="iortcw\MP\code\botlib\be_ai_weight.h" />
+    <ClInclude Include="iortcw\MP\code\botlib\be_ea.h" />
+    <ClInclude Include="iortcw\MP\code\botlib\be_interface.h" />
+    <ClInclude Include="iortcw\MP\code\botlib\botai.h" />
+    <ClInclude Include="iortcw\MP\code\botlib\botlib.h" />
+    <ClInclude Include="iortcw\MP\code\botlib\l_crc.h" />
+    <ClInclude Include="iortcw\MP\code\botlib\l_libvar.h" />
+    <ClInclude Include="iortcw\MP\code\botlib\l_log.h" />
+    <ClInclude Include="iortcw\MP\code\botlib\l_memory.h" />
+    <ClInclude Include="iortcw\MP\code\botlib\l_precomp.h" />
+    <ClInclude Include="iortcw\MP\code\botlib\l_script.h" />
+    <ClInclude Include="iortcw\MP\code\botlib\l_struct.h" />
+    <ClInclude Include="iortcw\MP\code\botlib\l_utils.h" />
     <ClInclude Include="iortcw\MP\code\client\client.h" />
     <ClInclude Include="iortcw\MP\code\client\cl_curl.h" />
     <ClInclude Include="iortcw\MP\code\client\keycodes.h" />
@@ -153,6 +292,65 @@
     <ClInclude Include="iortcw\MP\code\client\snd_codec.h" />
     <ClInclude Include="iortcw\MP\code\client\snd_local.h" />
     <ClInclude Include="iortcw\MP\code\client\snd_public.h" />
+    <ClInclude Include="iortcw\MP\code\qcommon\cm_local.h" />
+    <ClInclude Include="iortcw\MP\code\qcommon\cm_patch.h" />
+    <ClInclude Include="iortcw\MP\code\qcommon\cm_polylib.h" />
+    <ClInclude Include="iortcw\MP\code\qcommon\cm_public.h" />
+    <ClInclude Include="iortcw\MP\code\qcommon\json.h" />
+    <ClInclude Include="iortcw\MP\code\qcommon\puff.h" />
+    <ClInclude Include="iortcw\MP\code\qcommon\qcommon.h" />
+    <ClInclude Include="iortcw\MP\code\qcommon\qfiles.h" />
+    <ClInclude Include="iortcw\MP\code\qcommon\q_platform.h" />
+    <ClInclude Include="iortcw\MP\code\qcommon\q_shared.h" />
+    <ClInclude Include="iortcw\MP\code\qcommon\surfaceflags.h" />
+    <ClInclude Include="iortcw\MP\code\qcommon\vm_local.h" />
+    <ClInclude Include="iortcw\MP\code\server\server.h" />
+    <ClInclude Include="iortcw\MP\code\splines\math_angles.h" />
+    <ClInclude Include="iortcw\MP\code\splines\math_matrix.h" />
+    <ClInclude Include="iortcw\MP\code\splines\math_quaternion.h" />
+    <ClInclude Include="iortcw\MP\code\splines\math_vector.h" />
+    <ClInclude Include="iortcw\MP\code\splines\q_splineshared.h" />
+    <ClInclude Include="iortcw\MP\code\splines\splines.h" />
+    <ClInclude Include="iortcw\MP\code\splines\util_list.h" />
+    <ClInclude Include="iortcw\MP\code\splines\util_str.h" />
+    <ClInclude Include="iortcw\MP\code\sys\sys_loadlib.h" />
+    <ClInclude Include="iortcw\MP\code\sys\sys_local.h" />
+    <ClInclude Include="iortcw\MP\code\sys\win_resource.h" />
+    <ClInclude Include="iortcw\MP\code\zlib-1.2.11\crc32.h" />
+    <ClInclude Include="iortcw\MP\code\zlib-1.2.11\crypt.h" />
+    <ClInclude Include="iortcw\MP\code\zlib-1.2.11\gzguts.h" />
+    <ClInclude Include="iortcw\MP\code\zlib-1.2.11\inffast.h" />
+    <ClInclude Include="iortcw\MP\code\zlib-1.2.11\inffixed.h" />
+    <ClInclude Include="iortcw\MP\code\zlib-1.2.11\inflate.h" />
+    <ClInclude Include="iortcw\MP\code\zlib-1.2.11\inftrees.h" />
+    <ClInclude Include="iortcw\MP\code\zlib-1.2.11\ioapi.h" />
+    <ClInclude Include="iortcw\MP\code\zlib-1.2.11\unzip.h" />
+    <ClInclude Include="iortcw\MP\code\zlib-1.2.11\zconf.h" />
+    <ClInclude Include="iortcw\MP\code\zlib-1.2.11\zlib.h" />
+    <ClInclude Include="iortcw\MP\code\zlib-1.2.11\zutil.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="iortcw\MP\code\asm\ftola.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ml /c /Zi /safeseh /Fo"$(OutDir)%(Filename).asm.obj" "%(FullPath)"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Assembling...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)%(Filename).asm.obj;%(Outputs)</Outputs>
+    </CustomBuild>
+    <None Include="iortcw\MP\code\asm\matha.s">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </None>
+    <CustomBuild Include="iortcw\MP\code\asm\snapvector.asm">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ml /c /Zi /safeseh /Fo"$(OutDir)%(Filename).asm.obj" "%(FullPath)"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Assembling...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)%(Filename).asm.obj;%(Outputs)</Outputs>
+    </CustomBuild>
+    <None Include="iortcw\MP\code\asm\snd_mixa.s">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </None>
+    <None Include="iortcw\MP\code\asm\vm_x86_64.asm">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </None>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

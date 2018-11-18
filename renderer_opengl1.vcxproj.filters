@@ -34,6 +34,21 @@
     <ClInclude Include="iortcw\MP\code\jpeg-8c\jpeglib.h">
       <Filter>jpeg-8c</Filter>
     </ClInclude>
+    <ClInclude Include="iortcw\MP\code\qcommon\puff.h">
+      <Filter>qcommon</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\qcommon\q_shared.h">
+      <Filter>qcommon</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\qcommon\qcommon.h">
+      <Filter>qcommon</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\qcommon\qfiles.h">
+      <Filter>qcommon</Filter>
+    </ClInclude>
+    <ClInclude Include="iortcw\MP\code\qcommon\surfaceflags.h">
+      <Filter>qcommon</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="iortcw\MP\code\renderer\tr_altivec.c" />
@@ -206,6 +221,15 @@
     </ClCompile>
     <ClCompile Include="iortcw\MP\code\jpeg-8c\jutils.c">
       <Filter>jpeg-8c</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\qcommon\puff.c">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\qcommon\q_math.c">
+      <Filter>qcommon</Filter>
+    </ClCompile>
+    <ClCompile Include="iortcw\MP\code\qcommon\q_shared.c">
+      <Filter>qcommon</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

@@ -86,8 +86,11 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;USE_INTERNAL_JPEG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;USE_INTERNAL_JPEG;USE_LOCAL_HEADERS;USE_RENDERER_DLOPEN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
@@ -127,6 +130,11 @@
     <ClInclude Include="iortcw\MP\code\jpeg-8c\jpegint.h" />
     <ClInclude Include="iortcw\MP\code\jpeg-8c\jpeglib.h" />
     <ClInclude Include="iortcw\MP\code\jpeg-8c\jversion.h" />
+    <ClInclude Include="iortcw\MP\code\qcommon\puff.h" />
+    <ClInclude Include="iortcw\MP\code\qcommon\qcommon.h" />
+    <ClInclude Include="iortcw\MP\code\qcommon\qfiles.h" />
+    <ClInclude Include="iortcw\MP\code\qcommon\q_shared.h" />
+    <ClInclude Include="iortcw\MP\code\qcommon\surfaceflags.h" />
     <ClInclude Include="iortcw\MP\code\renderer\anorms256.h" />
     <ClInclude Include="iortcw\MP\code\renderer\iqm.h" />
     <ClInclude Include="iortcw\MP\code\renderer\qgl.h" />
@@ -181,6 +189,9 @@
     <ClCompile Include="iortcw\MP\code\jpeg-8c\jquant1.c" />
     <ClCompile Include="iortcw\MP\code\jpeg-8c\jquant2.c" />
     <ClCompile Include="iortcw\MP\code\jpeg-8c\jutils.c" />
+    <ClCompile Include="iortcw\MP\code\qcommon\puff.c" />
+    <ClCompile Include="iortcw\MP\code\qcommon\q_math.c" />
+    <ClCompile Include="iortcw\MP\code\qcommon\q_shared.c" />
     <ClCompile Include="iortcw\MP\code\renderer\tr_altivec.c" />
     <ClCompile Include="iortcw\MP\code\renderer\tr_animation.c" />
     <ClCompile Include="iortcw\MP\code\renderer\tr_backend.c" />
